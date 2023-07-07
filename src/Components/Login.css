@@ -1,0 +1,36 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginjs {
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.loginjs label {
+  font-weight: bold;
+}
+
+.loginjs input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.loginjs button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginjs button:hover {
+  background-color: #45a049;
+}
